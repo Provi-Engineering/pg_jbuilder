@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "pg_jbuilder"
   spec.version       = PgJbuilder::VERSION
   spec.authors       = ["tye"]
-  spec.email         = ["tye@tye.ca"]
+  spec.email         = ["tye@provi.com"]
   spec.summary       = %q{Use PostgreSQL JSON functions to dump database queries directly to a JSON object or array.}
   spec.description   = %q{pg_jbuilder is a tool to dump database queries directly to a JSON object or array. It uses PostgreSQL's JSON functions ([array_to_json and row_to_json](http://www.postgresql.org/docs/9.3/static/functions-json.html)) to serialize the JSON completely bypassing ActiveRecord/Arel. This gives a large speed boost compared to serializing the JSON inside of Ruby/Rails. It is perfect for creating JSON APIs with very low response times.}
   spec.homepage      = ""
